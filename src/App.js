@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import HomeView from './views/HomeView';
-import AboutView from './views/AboutView';
+import HomeView from './views/HomeView.jsx';
+import AboutView from './views/AboutView.jsx';
 
 const App = () => {
     return (
