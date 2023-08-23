@@ -4,7 +4,7 @@ import about from "../assets/img/about.jpg";
 
 const introText = {
   title: "port developer",
-  desc: ["talent is", "found at the end of the", "effort"]
+  desc: ["Life is like riding a bicycle.", "To keep your balance you must keep moving.", "- Albert Einstein"]
 }
 
 const Intro = () => {
@@ -32,13 +32,13 @@ const Intro = () => {
                     </div>
                 </div>
                 <div className="intro__lines bottom" aria-hidden="true">
+                    {/* <span className="line"></span>
                     <span className="line"></span>
                     <span className="line"></span>
                     <span className="line"></span>
                     <span className="line"></span>
                     <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
+                    <span className="line"></span> */}
                 </div>
             </div>
         </section>

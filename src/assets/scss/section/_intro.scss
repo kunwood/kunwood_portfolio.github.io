@@ -1,7 +1,7 @@
 #intro {
-  height: 130vh;
+  height: 115vh;
   @media (max-width: 800px){
-    height: 90vh;
+    height: 80vh;
   }
 }
 .intro__inner {
@@ -45,7 +45,9 @@
         height: 40vh;
     }
     .text {
-      font-size: 3vw;
+        mix-blend-mode: difference;
+        opacity: 50%;
+      font-size: 2.5vw;
       line-height: 1;
       font-weight: 900;
       text-transform: uppercase;
