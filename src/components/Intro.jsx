@@ -3,7 +3,7 @@ import React from 'react'
 import about from "../assets/img/about.jpg";
 
 const introText = {
-  title: "port developer",
+  title: "i'm [ㅤㅤ] developer",
   desc: ["Life is like riding a bicycle.", "To keep your balance you must keep moving.", "- Albert Einstein"]
 }
 
@@ -11,7 +11,8 @@ const Intro = () => {
   return (
     <section id="intro">
     <div className="intro__inner">
-        <h1 className="intro__title">{introText.title}</h1>
+        <h1 className="intro__title">
+            <p className="blink">|</p>{introText.title}</h1>
         <div className="intro__lines" aria-hidden="true">
             <span className="line"></span>
             <span className="line"></span>
