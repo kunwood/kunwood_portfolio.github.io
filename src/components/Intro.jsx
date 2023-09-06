@@ -2,10 +2,7 @@ import React from 'react'
 
 import about from "../assets/img/about.jpg";
 
-const introText = {
-  title: "i'm [ㅤㅤ] developer",
-  desc: ["Life is like riding a bicycle.", "To keep your balance you must keep moving.", "- Albert Einstein"]
-}
+import { introText } from '../constants';
 
 const Intro = () => {
   return (

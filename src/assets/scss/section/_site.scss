@@ -114,8 +114,9 @@
                     text-transform: uppercase;
                     color: var(--black200);
                     font-size: 1rem;
+                    font-weight: bold;
                     transition: all 0.3s;
-                    margin: 0 2px;
+                    margin: 0 4px;
 
                     &:hover {
                         color: var(--black);

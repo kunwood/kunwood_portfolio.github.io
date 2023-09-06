@@ -10,6 +10,7 @@ import Contact from "../components/Contact";
 import Main from "../components/Main";
 
 const HomeView = () => {
+
   return (
     <>
       <Skip />

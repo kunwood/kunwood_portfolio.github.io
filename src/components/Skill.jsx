@@ -1,26 +1,75 @@
 import React from "react";
+import HTML from "../assets/img/HTML.png";
+import JS from "../assets/img/JS.png";
+import CSS from "../assets/img/CSS.png";
+import REACT from "../assets/img/REACT.png";
+import GIT from "../assets/img/GIT.png";
+import GITHUB from "../assets/img/GITHUB.png";
+import NODE from "../assets/img/NODE.png";
+import BOOTSTRAP from "../assets/img/BOOTSTRAP.png";
+import JAVA from "../assets/img/JAVA.png";
+import MYSQL from "../assets/img/MYSQL.png";
+import SPRINGBOOT from "../assets/img/SPRINGBOOT.png";
+import AWS from "../assets/img/AWS.png";
+import PHOTOSHOP from "../assets/img/PHOTOSHOP.png";
+import ILLUSTRATOR from "../assets/img/ILLUSTRATOR.png";
 
-const skillText = [
-  {
-    title: "꿈을 설계하고 디자인하다.",
-    desc: "나는 공간을 만드는 것을 좋아한다. 어려을 때부터 나만의 공간을 만드는 것을 좋아했고 나만의 다락방을 좋아했다. 단 한 사람이라도 내가 만든 공간 속에서 영감을 받거나 마음이 움직였으면 좋겠다. 나만의 공간을 마음것 만들 수 있다는 건 코딩에 엄청난 매력인거 같다. 그 한구석에 나만의 꿈을 설계하고, 개발을 하며 앞으로도 살고싶다."
-  },
-  {
-    title: "열심히 할수록 기회는 따른다.",
-    desc: "운이 좋은 사람은 없다. 단지 운을 만들 뿐이다. 운을 만들기 위해서는 내가 좋아하는 일이나 내가 하고 싶은 일에 몰두하면 된다. 몰두하다보면 길이 보이고 방향이 보이게 된다. 운이란 고된 노동과 노력을 통해 스스로 만들어 내는 것이다."
-  },
-  {
-    title: "나에게 정직하다.",
-    desc: "정직은 다른 사람보다 나에게 큰 의미를 부여해야 한다. 자신이 정직하지 않으면 진정으로 원하는 일을 열정적으로 밀고 나갈 수 없다. 마음에서 우러나오는 일을 해야 정직해지며 삶을 더 즐길 줄 알게된다."
-  }
-]
+
+import {skillText} from "../constants"
 
 const Skill = () => {
   return (
     <section id="skill">
       <div className="skill__inner">
         <h2 className="skill__title">
-          Challenge <em>나의 도전</em>
+          This is Me <em>&nbsp;&nbsp;디테일&nbsp;&nbsp; 끈기&nbsp;&nbsp; 
+            <ul>
+              <div className="imgBox">
+              <li>
+                <img src={HTML} alt="" />
+              </li>
+              <li>
+                <img src={JS} alt="" />
+              </li>
+              <li>
+                <img src={CSS} alt="" />
+              </li>
+              <li>
+                <img src={REACT} alt="" />
+              </li>
+              <li>
+                <img src={BOOTSTRAP} alt="" />
+              </li>
+              <li>
+                <img src={NODE} alt="" />
+              </li>
+              <li>
+                <img src={GIT} alt="" />
+              </li>
+              <li>
+                <img src={GITHUB} alt="" />
+              </li>
+              <li>
+                <img src={JAVA} alt="" />
+              </li>
+              <li>
+                <img src={MYSQL} alt="" />
+              </li>
+              <li>
+                <img src={SPRINGBOOT} alt="" />
+              </li>
+              <li>
+                <img src={AWS} alt="" />
+              </li>
+              <li>
+                <img src={PHOTOSHOP} alt="" />
+              </li>
+              <li>
+                <img src={ILLUSTRATOR} alt="" />
+              </li>
+              </div>
+            </ul>
+            </em>
         </h2>
         <div className="skill__desc">
           {skillText.map((skill, key) => (

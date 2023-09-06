@@ -3,10 +3,6 @@
   z-index: 10000;
 }
 
-html{
-  scroll-behavior: smooth
-}
-
 .header__inner {
   @include flex-between;
   background-color: rgba(116, 99, 99, 0.1);

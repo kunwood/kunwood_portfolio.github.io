@@ -11,7 +11,7 @@ const contactText = [
   },
   {
     link: "https://www.notion.so/Kunwood-61c22c81925244faa9f9de7bf03af19b",
-    title: "Notion : kunwood_지식기록 & 공부",
+    title: "Notion : kunwood 지식기록 & 공부",
   },
 ];
 
